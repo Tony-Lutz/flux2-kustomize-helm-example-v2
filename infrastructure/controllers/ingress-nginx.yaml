@@ -33,7 +33,11 @@ spec:
       interval: 12h
   values:
     controller:
+      image:
+        allowPrivilegeEscalation: false
       service:
         type: "NodePort"
     admissionWebhooks:
       enabled: false
+
+controller.image.allowPrivilegeEscalation
