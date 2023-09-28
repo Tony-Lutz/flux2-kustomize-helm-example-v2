@@ -39,5 +39,3 @@ spec:
         type: "NodePort"
     admissionWebhooks:
       enabled: false
-
-controller.image.allowPrivilegeEscalation
