@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/Tony-Lutz/flux2-kustomize-helm-example-v2
+  url: https://github.com/Tony-Lutz/flux2-kustomize-helm-example-v2.git
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
