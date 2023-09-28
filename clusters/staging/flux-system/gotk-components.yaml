@@ -5609,7 +5609,7 @@ spec:
                           remediate the last failure, when no retries remain. Defaults
                           to 'false'.
                         type: boolean
-                      retries: -1
+                      retries:
                         description: Retries is the number of retries that should
                           be attempted on failures before bailing. Remediation, using
                           an uninstall, is performed between each attempt. Defaults
@@ -6074,7 +6074,7 @@ spec:
                           remediate the last failure, when no retries remain. Defaults
                           to 'false' unless 'Retries' is greater than 0.
                         type: boolean
-                      retries: -1
+                      retries:
                         description: Retries is the number of retries that should
                           be attempted on failures before bailing. Remediation, using
                           'Strategy', is performed between each attempt. Defaults
